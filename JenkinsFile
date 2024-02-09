@@ -9,7 +9,7 @@ pipeline{
    stages{
        stage('Clone a Repo'){
            steps{
-              git branch: dev, url: 'https://github.com/sahilshaikh1703-org/multiPipelineRepo.git'
+              git branch: 'dev', url: 'https://github.com/sahilshaikh1703-org/multiPipelineRepo.git'
            }
        }
        
