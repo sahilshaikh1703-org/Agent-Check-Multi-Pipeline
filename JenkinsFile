@@ -5,7 +5,7 @@ pipeline{
     }
 
     agent {
-label 'linux_node'
+label 'linux_node_new'
     }
     
    stages{
