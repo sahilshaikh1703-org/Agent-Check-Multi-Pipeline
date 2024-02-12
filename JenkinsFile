@@ -4,7 +4,9 @@ pipeline{
         maven 'MVN_HOME'
     }
 
-    agent any
+    agent {
+label 'linux_node'
+    }
     
    stages{
        stage('Clone a Repo'){
